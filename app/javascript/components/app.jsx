@@ -51,7 +51,7 @@ class App extends React.Component{
             * タスク一覧を再取得するために
             * getTasks メソッドを props として渡す
             */}
-            <TaskForm getTasks={this.getTasks()} />
+            <TaskForm getTasks={this.getTasks} />
           {/*
             * TaskRow (TaskTable の中) コンポーネント起因でタスクを削除した際に
             * タスク一覧を再取得するために

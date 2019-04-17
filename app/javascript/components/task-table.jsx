@@ -20,7 +20,7 @@ class TaskTable extends React.Component{
 
   //  渡されたtasksをmapで回し, TaskRowコンポーネントとしてまとめてレンダリング
     return(
-      <tabel className="siimple-table" style={width}>
+      <table className="siimple-table" style={width}>
         <thead className="siimple-table-header">
           <tr className="siimple-table-row">
             <th className="siimple-table-cell" style={textLeft}>Title</th>
@@ -40,7 +40,7 @@ class TaskTable extends React.Component{
               />);
           }.bind(this))}
         </tbody>
-      </tabel>
+      </table>
     )
   }
 }
