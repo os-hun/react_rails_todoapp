@@ -18,7 +18,6 @@ class TaskTable extends React.Component{
   render() {
     const { tasks, getTasks } = this.props;
 
-  //  渡されたtasksをmapで回し, TaskRowコンポーネントとしてまとめてレンダリング
     return(
       <table className="siimple-table" style={width}>
         <thead className="siimple-table-header">
@@ -29,6 +28,7 @@ class TaskTable extends React.Component{
           </tr>
         </thead>
         <tbody className="siimple-table-body">
+        {/*//  渡されたtasksをmapで回し, TaskRowコンポーネントとしてまとめてレンダリング*/}
           {tasks.map(function (task, index) {
             return (
               <TaskRow
