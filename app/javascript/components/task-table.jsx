@@ -6,7 +6,6 @@ let width = {
   position: 'relative',
   margin: '0 auto'
 };
-
 let textLeft = {
   textAlign: 'left',
 };
@@ -46,4 +45,3 @@ class TaskTable extends React.Component{
 }
 
 export default TaskTable;
-
