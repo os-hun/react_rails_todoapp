@@ -30,7 +30,9 @@ class TaskRow extends React.Component{
       <tr className="siimple-table-row">
         <td className="siimple-table-cell">{this.props.title}</td>
         <td className="siimple-table-cell">{this.props.description}</td>
-        <td className="siimple-table-cell"><a href="#" className="siimple-tag siimple-tag--error siimple-hovers" onClick={() => this.deleteTask(this.props.id)}>Delete</a></td>
+        <td className="siimple-table-cell">
+          <a href="#" className="siimple-tag siimple-tag--error siimple-hovers" onClick={() => this.deleteTask(this.props.id)}>Delete</a>
+        </td>
       </tr>
     )
   }
